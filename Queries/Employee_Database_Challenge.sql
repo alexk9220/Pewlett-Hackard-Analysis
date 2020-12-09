@@ -21,3 +21,28 @@ INTO "Retiring_titles"
 FROM unique_titles
 GROUP BY "title"
 ORDER BY "count" DESC
+
+
+SELECT DISTINCT ON (e.emp_no) e.emp_no,
+                    last_name,
+                    first_name,
+                    birth_date,
+					de.from_date,
+					de.to_date,
+					title
+INTO "Mentorship_eligibility"					
+FROM "employees" AS e
+    INNER JOIN "dept_emp" AS de
+        ON (e.emp_no = de.emp_no)
+    INNER JOIN titles AS l
+        ON (l.emp_no = de.emp_no)
+WHERE birth_date BETWEEN '1965-01-01' AND '1965-12-31'
+ORDER BY e.emp_no;
+
+
+--Genders
+SELECT COUNT ("gender"),"gender"
+INTO "Genders"
+FROM "Employees"
+GROUP BY "gender"
+
