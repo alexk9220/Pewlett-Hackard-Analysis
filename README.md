@@ -43,4 +43,4 @@ A total number of 90398 people will soon depart based on the data obtained, thus
 <img width="134" alt="Screen Shot 2020-12-09 at 10 19 12 AM" src="https://user-images.githubusercontent.com/73204192/101649074-7b6fb580-3a08-11eb-97d5-c63548ed8949.png">
 
 60% of people employed at PH are men, thus 40% of emplyees are women. This information might come in handy and be useful for our HR department - for instance it might help us change our hiring practices, it might help us change our health benefits plan, etc. - there are lots and lots of possible options. Also we can see that there are only two gender designations - M for men and F for women, given the fact that our societies have been rapidly evolving in the pas few years, we might need to add a few more gender options to improve our HR specific operations.
-The summary addresses the two questions and contains two additional queries or tables that may provide more insight. (5 pt)
+
